@@ -10,9 +10,16 @@ my neovim config
 - full theme set
 - all the necessary functions binded (at least for me but new bindings can be added easily)
 
-# Plugins used
+# plugins used
 - [coc.nvim](https://github.com/neoclide/coc.nvim) - autocmpletion
 - [nerdtree](https://github.com/preservim/nerdtree) - file explorer
 - [vim-airline](https://github.com/vim-airline/vim-airline) - airline
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) - themes for airlines
-- [awesome-vim://github.com/rafi/awesome-vim-colorschemes)
+- [awesome-vim-colorschemes](https://github.com/rafi/awesome-vim-colorschemes) - themes pack
+
+# keybinds
+- `Ctrl + F` - open file explorer
+- `Ctrl + G` - close file explorer
+- `Ctrl + Z` - undo last edit
+- `Ctrl + W` - save/write the file
+- `Ctrl + q` - exit
