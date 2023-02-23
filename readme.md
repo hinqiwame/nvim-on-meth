@@ -22,4 +22,4 @@ my neovim config
 - `Ctrl + G` - close file explorer
 - `Ctrl + Z` - undo last edit
 - `Ctrl + W` - save/write the file
-- `Ctrl + q` - exit
+- `Ctrl + Q` - exit
