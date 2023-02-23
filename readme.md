@@ -16,6 +16,7 @@ my neovim config
 - [vim-airline](https://github.com/vim-airline/vim-airline) - airline
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) - themes for airlines
 - [awesome-vim-colorschemes](https://github.com/rafi/awesome-vim-colorschemes) - themes pack
+- [vim-transparent](https://github.com/tribela/vim-transparent) - make the coloscheme transparent
 
 # keybinds
 - `Ctrl + F` - open file explorer
