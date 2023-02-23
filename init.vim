@@ -28,7 +28,7 @@ call plug#end()
 
 " Keybinds
 nnoremap <C-f> :NERDTree<CR>
-"nnoremap <C-g> :NERDTreeToggle<CR>
+nnoremap <C-g> :NERDTreeToggle<CR>
 nnoremap <C-z> u<CR>
 nnoremap <C-w> :w<CR>
 nnoremap <C-q> :q<CR>
