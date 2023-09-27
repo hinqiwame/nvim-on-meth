@@ -24,3 +24,4 @@ my neovim config
 - `Ctrl + Z` - undo last edit
 - `Ctrl + W` - save/write the file
 - `Ctrl + Q` - exit
+- `Ctrl + N` - create and edit a new file
