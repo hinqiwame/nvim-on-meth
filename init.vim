@@ -26,12 +26,23 @@ Plug 'tribela/vim-transparent'
 
 call plug#end()
 
+" Function to create a new file and enter a window to edit it
+function! Create_and_edit_file()
+    let file_name = input("Enter a filename: ")
+    if !empty(file_name)
+        execute 'edit ' . file_name
+    else
+        echo "No filename provided."
+    endif
+endfunction
+
 " Keybinds
 nnoremap <C-f> :NERDTree<CR>
 nnoremap <C-g> :NERDTreeToggle<CR>
 nnoremap <C-z> u<CR>
 nnoremap <C-w> :w<CR>
 nnoremap <C-q> :q<CR>
+nnoremap <C-N> :call Create_and_edit_file()<CR>
 
 " Autocompletion settings
 inoremap <silent><expr> <TAB>
@@ -49,4 +60,3 @@ endfunction
 :colorscheme 256_noir
 let t:is_transparent = 1
 let g:airline_theme='minimalist'
-
