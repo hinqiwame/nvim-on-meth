@@ -43,6 +43,7 @@ nnoremap <C-z> u<CR>
 nnoremap <C-w> :w<CR>
 nnoremap <C-q> :q<CR>
 nnoremap <C-N> :call Create_and_edit_file()<CR>
+nnoremap <C-t> :botright terminal<CR>
 
 " Autocompletion settings
 inoremap <silent><expr> <TAB>
