@@ -7,6 +7,7 @@ my neovim config
 - highly customizable
 - code completion
 - file explorer
+- terminal emulator built-in
 - full theme set
 - all the necessary functions binded (at least for me but new bindings can be added easily)
 
@@ -25,3 +26,4 @@ my neovim config
 - `Ctrl + W` - save/write the file
 - `Ctrl + Q` - exit
 - `Ctrl + N` - create and edit a new file
+- `Ctrl + T` - open up a terminal emulator
