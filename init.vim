@@ -36,6 +36,17 @@ function! Create_and_edit_file()
     endif
 endfunction
 
+" Function to find smth in the file
+function! Find_In_Code()
+	let search_query = input("Enter the search query: ")
+	if len(search_query) > 0
+		cgetexpr system("grep -rnH " . shellescape(search_query) . " " . shellescape(expand("%:p")))
+		copen
+	else
+		echo 'Search query must be provided.'
+	endif
+endfunction
+
 " Keybinds
 nnoremap <C-f> :NERDTree<CR>
 nnoremap <C-g> :NERDTreeToggle<CR>
@@ -44,6 +55,7 @@ nnoremap <C-w> :w<CR>
 nnoremap <C-q> :q<CR>
 nnoremap <C-N> :call Create_and_edit_file()<CR>
 nnoremap <C-t> :botright terminal<CR>
+nnoremap <C-F> :call Find_In_Code()<CR>
 
 " Autocompletion settings
 inoremap <silent><expr> <TAB>
@@ -61,3 +73,5 @@ endfunction
 :colorscheme nord
 let t:is_transparent = 1
 let g:airline_theme='base16'
+
+let $NVIM_PYTHON_LOG_FILE = "/home/x0/.config/nvim/log.log"
