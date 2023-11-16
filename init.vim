@@ -30,7 +30,7 @@ call plug#end()
 function! Create_and_edit_file()
     let file_name = input("Enter a filename: ")
     if !empty(file_name)
-        execute 'edit ' . file_name
+        execute "edit " . file_name
     else
         echo "No filename provided."
     endif
@@ -43,7 +43,7 @@ function! Find_In_Code()
 		cgetexpr system("grep -rnH " . shellescape(search_query) . " " . shellescape(expand("%:p")))
 		copen
 	else
-		echo 'Search query must be provided.'
+		echo "No search query provided."
 	endif
 endfunction
 
@@ -74,4 +74,4 @@ endfunction
 let t:is_transparent = 1
 let g:airline_theme='base16'
 
-let $NVIM_PYTHON_LOG_FILE = "/home/x0/.config/nvim/log.log"
+let $NVIM_PYTHON_LOG_FILE = '/home/x0/.config/nvim/log.log'
