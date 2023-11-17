@@ -27,4 +27,4 @@ my neovim config
 - `Ctrl + Q` - exit
 - `Ctrl + N` - create and edit a new file
 - `Ctrl + T` - open up a terminal emulator
-- `Ctrl + F` - find smth in the code
+- `Ctrl + S` - find smth in the code
