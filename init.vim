@@ -1,11 +1,12 @@
 " Neovim settings
+:set mouse=a
 :set number
 :set autoindent
 :set tabstop=4
 :set shiftwidth=4
 :set smarttab
 :set softtabstop=4
-:set mouse=a
+:set clipboard=unnamedplus
 
 " Plugins
 call plug#begin()
@@ -74,4 +75,4 @@ endfunction
 let t:is_transparent = 1
 let g:airline_theme='base16'
 
-let $NVIM_PYTHON_LOG_FILE = '/home/x0/.config/nvim/log.log'
+" let $NVIM_PYTHON_LOG_FILE = '/home/x0/.config/nvim/log.log'
