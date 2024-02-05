@@ -70,7 +70,7 @@ inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
 " General options
 let g:presence_auto_update         = 1
-let g:presence_neovim_image_text   = "The One True Text Editor"
+let g:presence_neovim_image_text   = "Neovim"
 let g:presence_main_image          = "neovim"
 let g:presence_client_id           = "793271441293967371"
 let g:presence_log_level		   = "debug"
