@@ -1,7 +1,7 @@
 # nvim-on-meth
 my neovim config
 ![ss](ghoulss.png)<br>
-(theme used: `256_noir`)
+(theme used: `nord` with [pywal](https://github.com/dylanaraps/pywal))
 
 # why
 - highly customizable
@@ -18,10 +18,10 @@ my neovim config
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) - themes for airlines
 - [awesome-vim-colorschemes](https://github.com/rafi/awesome-vim-colorschemes) - themes pack
 - [vim-transparent](https://github.com/tribela/vim-transparent) - make the coloscheme transparent
+- [presense.nvim](https://github.com/andweeb/presence.nvim) - discord rpc
 
 # keybinds
-- `Ctrl + F` - open file explorer
-- `Ctrl + G` - close file explorer
+- `Ctrl + F` - open/close file explorer
 - `Ctrl + Z` - undo last edit
 - `Ctrl + W` - save/write the file
 - `Ctrl + Q` - exit
