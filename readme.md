@@ -1,7 +1,7 @@
 # nvim-on-meth
 my neovim config
 ![ss](ghoulss.png)<br>
-(theme used: `nord` with [pywal](https://github.com/dylanaraps/pywal))
+>theme used: `nord` with [pywal](https://github.com/dylanaraps/pywal)
 
 # why
 - highly customizable
