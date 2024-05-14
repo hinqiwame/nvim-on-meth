@@ -8,7 +8,7 @@ my neovim config
 - code completion
 - file explorer
 - terminal emulator built-in
-- full theme set
+- full theme set (it's so good with pywal)
 - all the necessary functions binded (at least for me but new bindings can be added easily)
 
 # plugins used
@@ -18,7 +18,6 @@ my neovim config
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) - themes for airlines
 - [awesome-vim-colorschemes](https://github.com/rafi/awesome-vim-colorschemes) - themes pack
 - [vim-transparent](https://github.com/tribela/vim-transparent) - make the coloscheme transparent
-- [presense.nvim](https://github.com/andweeb/presence.nvim) - discord rpc
 
 # keybinds
 - `Ctrl + F` - open/close file explorer
