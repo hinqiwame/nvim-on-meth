@@ -22,9 +22,6 @@ Plug 'https://github.com/preservim/nerdtree'
 " Autocompleteon
 Plug 'neoclide/coc.nvim'
 
-" Presence
-Plug 'andweeb/presence.nvim'
-
 " Themes pack and transparent mode
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'tribela/vim-transparent'
@@ -84,4 +81,4 @@ endfunction
 let t:is_transparent = 1
 let g:airline_theme='base16'
 
-" let $NVIM_PYTHON_LOG_FILE = '/home/x0/.config/nvim/log.log'
+" let $NVIM_PYTHON_LOG_FILE = '/home/hinqiwame/.config/nvim/python.log'
