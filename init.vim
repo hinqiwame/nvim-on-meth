@@ -79,14 +79,6 @@ function! CheckBackspace() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-let g:neural = {
-	'source': {
-		'openai': {
-			'api_key': '',
-		},
-	},
-}
-
 " Theme settings
 :colorscheme nord
 let t:is_transparent = 1
