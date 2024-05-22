@@ -1,7 +1,7 @@
 # nvim-on-meth
 my neovim config
 ![ss](ghoulss.png)<br>
->theme used: `nord` with [pywal](https://github.com/dylanaraps/pywal)
+>Theme used: [wal.vim](https://github.com/dylanaraps/wal.vim) | [pywal](https://github.com/dylanaraps/pywal)
 
 # why
 - highly customizable
@@ -12,12 +12,11 @@ my neovim config
 - all the necessary functions binded (at least for me but new bindings can be added easily)
 
 # plugins used
-- [coc.nvim](https://github.com/neoclide/coc.nvim) - autocmpletion
-- [nerdtree](https://github.com/preservim/nerdtree) - file explorer
 - [vim-airline](https://github.com/vim-airline/vim-airline) - airline
-- [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) - themes for airlines
-- [awesome-vim-colorschemes](https://github.com/rafi/awesome-vim-colorschemes) - themes pack
+- [nerdtree](https://github.com/preservim/nerdtree) - file explorer
+- [coc.nvim](https://github.com/neoclide/coc.nvim) - autocompletion
 - [vim-transparent](https://github.com/tribela/vim-transparent) - make the coloscheme transparent
+- [wal.vim](https://github.com/dylanaraps/wal.vim) - use pywal theme for nvim
 
 # keybinds
 - `Ctrl + F` - open/close file explorer
