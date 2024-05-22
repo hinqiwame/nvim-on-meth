@@ -1,4 +1,3 @@
-
 " Neovim settings
 :set mouse=a
 :set number
@@ -14,7 +13,6 @@ call plug#begin()
 
 " Airline settings
 Plug 'https://github.com/vim-airline/vim-airline'
-Plug 'https://github.com/vim-airline/vim-airline-themes'
 
 " File explorer
 Plug 'https://github.com/preservim/nerdtree'
@@ -23,13 +21,8 @@ Plug 'https://github.com/preservim/nerdtree'
 Plug 'neoclide/coc.nvim'
 
 " Themes pack and transparent mode
-Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'tribela/vim-transparent'
-
-" AI
-Plug 'dense-analysis/neural'
-Plug 'muniftanjim/nui.nvim'
-Plug 'elpiloto/significant.nvim'
+Plug 'dylanaraps/wal.vim'
 
 call plug#end()
 
@@ -55,8 +48,7 @@ function! Find_In_Code()
 endfunction
 
 " Keybinds
-nnoremap <C-f> :NERDTree<CR>
-nnoremap <C-g> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeToggle<CR>
 nnoremap <C-z> u<CR>
 nnoremap <C-w> :w<CR>
 nnoremap <C-q> :q<CR>
@@ -77,8 +69,6 @@ function! CheckBackspace() abort
 endfunction
 
 " Theme settings
-:colorscheme nord
-let t:is_transparent = 1
-let g:airline_theme='base16'
+colorscheme wal
 
 " let $NVIM_PYTHON_LOG_FILE = '/home/hinqiwame/.config/nvim/python.log'
