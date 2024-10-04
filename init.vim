@@ -21,7 +21,9 @@ Plug 'https://github.com/preservim/nerdtree'
 Plug 'neoclide/coc.nvim'
 
 " Themes pack and transparent mode
+Plug 'EdenEast/nightfox.nvim'
 Plug 'tribela/vim-transparent'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'dylanaraps/wal.vim'
 
 call plug#end()
@@ -69,6 +71,7 @@ function! CheckBackspace() abort
 endfunction
 
 " Theme settings
-colorscheme wal
+colorscheme nightfox
+let g:airline_theme='nord_minimal'
 
 " let $NVIM_PYTHON_LOG_FILE = '/home/hinqiwame/.config/nvim/python.log'
