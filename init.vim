@@ -57,6 +57,7 @@ nnoremap <C-q> :q<CR>
 nnoremap <C-N> :call Create_and_edit_file()<CR>
 nnoremap <C-t> :botright terminal<CR>
 nnoremap <C-s> :call Find_In_Code()<CR>
+nnoremap <C-a> ggVG
 
 " Autocompletion settings
 inoremap <silent><expr> <TAB>
