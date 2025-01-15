@@ -12,13 +12,18 @@
 call plug#begin()
 
 " Airline settings
-Plug 'https://github.com/vim-airline/vim-airline'
+" Plug 'https://github.com/vim-airline/vim-airline'
 
 " File explorer
 Plug 'https://github.com/preservim/nerdtree'
 
 " Autocompleteon
 Plug 'neoclide/coc.nvim'
+
+" AI
+Plug 'Exafunction/codeium.nvim'
+Plug 'nvim-lua/plenary.nvim' " Required dependency
+Plug 'hrsh7th/nvim-cmp'       " Required for completion
 
 " Themes pack and transparent mode
 Plug 'EdenEast/nightfox.nvim'
@@ -50,13 +55,13 @@ function! Find_In_Code()
 endfunction
 
 " Keybinds
-nnoremap <C-f> :NERDTreeToggle<CR>
+nnoremap <C-e> :NERDTreeToggle<CR>
 nnoremap <C-z> u<CR>
 nnoremap <C-w> :w<CR>
 nnoremap <C-q> :q<CR>
 nnoremap <C-N> :call Create_and_edit_file()<CR>
 nnoremap <C-t> :botright terminal<CR>
-nnoremap <C-s> :call Find_In_Code()<CR>
+nnoremap <C-f> :call Find_In_Code()<CR>
 nnoremap <C-a> ggVG
 
 " Autocompletion settings
